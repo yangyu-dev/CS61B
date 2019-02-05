@@ -6,6 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestCalcForceExertedBy",
+            "request": "launch",
+            "mainClass": "TestCalcForceExertedBy"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestCalcDistance",
+            "request": "launch",
+            "mainClass": "TestCalcDistance"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IntList",
             "request": "launch",
             "mainClass": "IntList"
@@ -54,7 +66,7 @@
             "name": "Debug (Launch)-LeapYear",
             "request": "launch",
             "mainClass": "LeapYear",
-            "args": "2001"
+            "args": "2002"
         }
     ]
 }
