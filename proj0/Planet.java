@@ -85,13 +85,20 @@ public class Planet {
         for (int i = 0; i < Planets.length; i++) {
             if (!p1.equals(Planets[i])){
                 nforceX = nforceX + p1.calcForceExertedByX(Planets[i]);
-
-                //force = G * (p1.mass) * (Planets[i].mass) / Math.pow((p1.calcDistance(Planets[i])), 2);
-                //dX = p1.xxPos - Planets[i].xxPos;
-                //forceX = forceX + force * dX / p1.calcDistance(Planet[i]);
             }
         }
         return nforceX;
+    }
+
+    public double calcNetForceExertedByY(Planet[] Planets) {
+        Planet p1 = this;
+        double nforceY = 0;
+        for (int i = 0; i < Planets.length; i++) {
+            if (!p1.equals(Planets[i])){
+                nforceY = nforceY + p1.calcForceExertedByY(Planets[i]);
+            }
+        }
+        return nforceY;
     }
 
 

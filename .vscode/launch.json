@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestCalcNetForceExertedByXY",
+            "request": "launch",
+            "mainClass": "TestCalcNetForceExertedByXY"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestCalcForceExertedByXY",
             "request": "launch",
             "mainClass": "TestCalcForceExertedByXY"
